@@ -1,0 +1,21 @@
+GET http://localhost:4500/api/games
+
+###
+
+POST http://localhost:4500/api/games
+Content-Type: application/json
+
+{
+    "nombre": "Fornite",
+    "consola": "PC",
+    "precio": 120,
+    "genero": ["accion","suspenso"],
+    "estreno": "2022-12-09"
+}
+###
+
+PUT http://localhost:4500/api/games/567
+
+###
+
+DELETE http://localhost:4500/api/games/41224d776a326fb40f000001
